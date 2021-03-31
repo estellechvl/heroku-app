@@ -1,0 +1,26 @@
+{
+  "name": "heroku-app",
+  "version": "1.0.0",
+  "description": "api for estelle.dev",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=dev nodemon app.js",
+    "start:prod": "NODE_ENV=prod nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estellechvl/heroku-app.git"
+  },
+  "author": "Estelle Chevallier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estellechvl/heroku-app/issues"
+  },
+  "homepage": "https://github.com/estellechvl/heroku-app#readme"
+}
